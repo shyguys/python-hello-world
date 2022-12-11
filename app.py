@@ -5,8 +5,8 @@ def prompt_player_names():
     ]
 
 def main():
-    for index, player_name in enumerate(prompt_player_names()):
-        print(f"Player {index+1}: {player_name}")
+    for index, player_name in enumerate(prompt_player_names(), 1):
+        print(f"Player {index}: {player_name}")
 
 if __name__ == '__main__':
     main()
