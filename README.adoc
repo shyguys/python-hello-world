@@ -1,0 +1,4 @@
+= python-hello-world
+:toc: auto
+
+First steps in Python.
