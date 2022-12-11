@@ -1,5 +1,12 @@
-def main():
-    print("Hello World!")
+def prompt_player_names():
+    return [
+        input("Player 1, please provide your name: "),
+        input("Player 2, please provide your name: ")
+    ]
 
-if __name__ == "__main__":
+def main():
+    for index, player_name in enumerate(prompt_player_names()):
+        print(f"Player {index+1}: {player_name}")
+
+if __name__ == '__main__':
     main()
